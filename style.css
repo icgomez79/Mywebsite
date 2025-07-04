@@ -1,0 +1,196 @@
+body{
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	position: relative;
+	background-color:black;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body.light {
+    background-color: lightpink;
+	text-shadow: black;
+	color: black;
+	
+}
+
+#toggle {
+	float: right;
+	position:fixed;
+	top: 0;
+    right: 0;
+    left: 0;
+	margin-top: 12px;
+	margin-left: 90%;
+	width:100px;
+	background-color: lightpink;
+	
+}
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position:fixed;
+	top: 0;
+    right: 0;
+    left: 0;
+	background-color:crimson;
+}
+
+li a{
+
+	float: left;
+	padding: 14px;
+	text-decoration: none;
+	color:black;
+
+}
+
+li a:hover{
+	color: #F08080;
+	background-color: crimson;
+}
+
+
+h1{ 
+	margin-top: 100px;
+    color: 	crimson;
+	text-align: center;
+	text-decoration:none;
+	font-size: 3em;
+    margin-bottom: 30px;
+}
+.AboutMe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+    text-align: justify;
+    margin-bottom: 10%;
+    
+}
+
+.AboutMe a{
+	color: crimson;
+}
+
+ img {
+    border: 5px solid crimson;
+	display:block;
+	margin: auto;
+ }
+
+#Photoshop {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+#Photoshop img {
+    display:inline-block;
+	text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+.Video {
+	display: block;
+	margin:auto;
+	width:50%;
+    text-align: justify;
+    margin-bottom: 10%;
+
+}
+
+video {
+    border: 5px solid crimson;
+	display:block;
+	margin: auto;
+	text-align: center;
+}
+
+#Contact {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.name {
+	text-align: center;
+}
+
+.address {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.email {
+	text-align: center;
+	margin-bottom: 5%;
+}
+a[href^="mailto"] { 
+	color: crimson;
+	font-size: 15px;
+}
+a[href^="mailto"]:hover {
+	background-color: #F08080;
+	color: #FFF0F5;
+}	 
+.phone {
+	display: block;
+	text-align: center;
+}
+.phone img {
+
+	margin:auto;
+    text-align:center;
+}
+.phone p {
+	margin: auto;
+	text-align:center;
+	margin-bottom: 5%;
+}
+.instagram {
+	display: block;
+	text-align: center;
+}
+.instagram img {
+
+	margin: auto;
+    text-align: justify;
+	margin-top: 5%;
+}
+.instagram p {
+	margin: auto;
+	text-align:center;
+	margin-bottom: 5%;
+}
+
+.Linkedin {
+	display: block;
+	text-align: center;
+}
+.Linkedin img {
+
+	margin:auto
+    text-align: justify;
+	margin-top: 5%;
+}
+
+.Linkedin p {
+	margin: auto;
+	text-align:center;
+	margin-bottom: 5%;
+}
+
+
+
